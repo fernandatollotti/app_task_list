@@ -1,8 +1,8 @@
 <?php
 
-    require "../protected/task.model.php";
-    require "../protected/task.service.php";
-    require "../protected/connection.php";
+    require "protected/task.model.php";
+    require "protected/task.service.php";
+    require "protected/connection.php";
 
     $__task = new Task();
     $__conn = new Connection();
