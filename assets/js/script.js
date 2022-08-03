@@ -34,8 +34,6 @@ function edit(id, txt)
     group.append(input, id_input, input_append);
     form.appendChild(group);
 
-    console.log(form)
-
     let task = document.getElementById('id_' + id);
     task.innerHTML = '';
 
