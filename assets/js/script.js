@@ -5,7 +5,6 @@ function edit(id, txt)
 {
     let form = document.createElement('form');
     form.method = 'POST';
-    alert(url);
     form.action = url == 'index.php' ? 'index.php?page=index&action=update' : 'task_controller.php?action=update';
   
 
